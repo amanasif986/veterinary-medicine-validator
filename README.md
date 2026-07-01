@@ -25,10 +25,10 @@ This project was built as part of my Object-Oriented Programming coursework at C
 
 | Concept | How it's used |
 |---|---|
-| Inheritance | All pet classes (Dog, Cat, Rabbit, Parrot, Hamster) inherit from a base class `PetBase` |
+| Inheritance | All pet classes inherit from a base class `PetBase` |
 | Polymorphism | Each subclass overrides `medicines` and `compounds` with its own data |
 | Encapsulation | Medicine rules and compound ranges are contained within each class |
-| Static Methods | `adjust_concentration()` is a static method on `PetBase` used by all subclasses |
+| Static Methods | `adjust_concentration()` is a static method used by all subclasses |
 | Abstraction | User interacts through simple menus; complexity is hidden inside the classes |
 
 ---
@@ -49,13 +49,6 @@ This project was built as part of my Object-Oriented Programming coursework at C
 
 ---
 
-## Project Structure
-veterinary-medicine-validator/
-│
-├── veterinary-medicine-validator.py    # Main program
-├── README.md                           # Project documentation
----
-
 ## Technologies Used
 
 - Python 3
@@ -64,24 +57,8 @@ veterinary-medicine-validator/
 
 ---
 
-## Sample Output
-=== Veterinary Medicine Generator ===
-Choose a pet:
-
-Dog
-Cat
-Rabbit
-Parrot
-Hamster
-Enter pet (1-5): 1
-
-Selected: Dog (Labrador, Medium)
-✅ Mixture is SAFE!
----
-
 ## Author
 
 **Aman Asif**
-BS Business Data Analytics
-COMSATS University Islamabad
-https://www.linkedin.com/in/aman-asif-7aa496257 | amanasif986@gmail.com
+BS Business Data Analytics — COMSATS University Islamabad
+[LinkedIn](https://www.linkedin.com/in/aman-asif-7aa496257) | [Email](mailto:amanasif986@gmail.com)
